@@ -1,0 +1,15 @@
+{
+    "batchSize": 128,
+    "epochs": 15,
+    "rows": 28,
+    "columns": 28,
+    "lr": 0.001,
+    "rho": 0.9,
+    "epsilon": 1e-08,
+    "decay": 0.0,
+    "monitor": "val_acc",
+    "patience": 3,
+    "verbose": 1,
+    "factor": 0.5,
+    "min_lr": 0.00001
+}
